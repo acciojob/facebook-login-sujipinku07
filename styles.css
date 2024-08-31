@@ -1,1 +1,38 @@
+body {
+	padding:0;
+	margin:0;
+	background-color:#f6f6f6;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	height: 100vh;
+}
+.box {
+	width:450px;
+	margin-top:70px;
+	display:inline-block;
+}
+.form-box {
+	display:flex;
+	width:300px;
+	background-color:white;
+	padding:20px;
+	border-radius:5px;
+	box-shadow:0 0 10px #ccc;
+	flex-direction:column;
+	gap:10px;
+}
+.button {
+	background-color: #1877f2;
+	border-radius: 5px;
+	padding:10px 20px
+	width:right;
+}
+.form-box button {
+	color:#1877f2;
+}
+.form-box button: hover {
+background-color:42b72a;	
+}
+
 /*  your css code here. If applicable */

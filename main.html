@@ -1,55 +1,27 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-	  <style>
-		  .body {
-			background-color: #f6f6f6;
-			  display: flex;
-			  justify-content: center;
-			  align-items: center;
-			  height: 100vh;
-		  }
-		  .left {
-			width: 50px;
-			  margin-top:10px;
-			  display:inline-block;
-		  }
-		  .form {
-			  display:flex;
-			  width:300px;
-			  background-color: white;
-			  padding:20px;
-			  border-radius:5px;
-			  box-shadow:0 0 10px #ccc;
-			  flex-direction: column;
-			  gap: 10px;
-		  }
-		.input {
-			border:1px solid #ccc;
-			border-radius:5px;
-			padding: 10px;
-		}
-		  .button {
-			background-color: #1877f2;  
-			  border-radius:5px;
-			  padding: 10px 20px;
-		  }
-	  </style>
-    <title>Facebook Login</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Facebook</title>
   </head>
   <body>
-    <div class="left">
-		<img src="https://storage.googleapis.com/acciojob-open-file-collections/9f5281b3-0f4e-4b04-b880-de3b928a6bd1_Screenshot%202023-06-23%20at%203.50.10%20PM.png" alt="facebook logo">
+    <div class="box">
+		<div class="Left">
+			<img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook logo">
 			<p>Facebook helps you connect and share with the people in your life.</p>
-		</alt>
-	</div>
-		<div class="right">
-	  <form>
-	  <input type="id="email" placeholder="Email address or phone number">
-	  <button type="submit" ="Log in">
-	  </button>
-	  </form>
-	  <a href="Forgotten account?"></a>
-	  <button class="signup" type="Create new account">
-	  </button>
 		</div>
-	<!-- Write your code here -->
+		<div class="form-box">
+			<form action="#">
+				<input type="text" id="email" placeholder="Email address or phone number">
+				<input type="password" id="password" placeholder="Password">
+				<button type="submit">Log In</button>
+				<a href="#">Forgotten account?</a>
+			</form>
+			<hr>
+			<button class="signup">Create new account</button>
+		<!-- the entire body must be written by student -->
+    <script src="./script.js"></script>
+  </body>
+</html>
