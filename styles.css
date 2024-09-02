@@ -7,10 +7,10 @@ body {
 	align-items: center;
 	height: 100vh;
 }
-.box {
+.left {
 	width:450px;
 	margin-top:70px;
-	display:inline-block;
+	display: inline-block;
 }
 .form-box {
 	display:flex;
