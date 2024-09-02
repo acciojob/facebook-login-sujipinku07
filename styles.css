@@ -12,7 +12,7 @@ body {
 	margin-top:70px;
 	display: inline-block;
 }
-.form-box {
+.form {
 	display:flex;
 	width:300px;
 	background-color:white;
@@ -28,11 +28,24 @@ body {
 	padding:10px 20px
 	width:right;
 }
-.form-box button {
+.input {
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:10px;
+}
+.button {
+	background-color:#1877f2;
+	border-radius:5px;
+	padding:10px 20px;	
+}
+.link {
 	color:#1877f2;
 }
-.form-box button: hover {
-background-color:42b72a;	
+.button {
+	background-color:42b72a;
+}
+.signup {
+	background-color: 42b72a;
 }
 
 /*  your css code here. If applicable */
