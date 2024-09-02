@@ -1,30 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Facebook</title>
+    <title>Facebook Login</title>
+	  <style>
+		  body{
+			  background-color:#f6f6f6;
+			  display:flex;
+			  justify-content:center;
+			  align-items:center;
+			  height:100vh;
+		  }
+		  .left{
+			  width:450px;
+			  margin-top:70px;
+			  display:inline-block;
+		  }
+		  form{
+			  display:flex;
+			  width:300px;
+			  background-color:white;
+			  padding:20px;
+			  border-radius:5px;
+			  box-shadow:0 0 10px #ccc;
+			  flex-direction:column;
+			  gap:10px
+		  }
+		  input{
+			  border:1px solid #ccc;
+			  border-radius:5px;
+			  padding:10px
+		  }
+		  button{
+			  background-color:#1877f2;
+			  border-radius:5px;
+			  padding:10px 20px
+		  }
+		  a{
+			  text-decoration:underline;
+			  color:#1877f2;
+		  }
+		  .signup{
+			  background-color:42b72a;
+		  }
+	  </style>
   </head>
   <body>
+    <!-- Write your code here -->
 	  <section class="left">
-		<div class="Left">
-			<img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook logo">
-			<p>Facebook helps you connect and share with the people in your life.</p>
-		</div>
+		  <div class="left">
+			  <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook logo">
+			  <p>Facebook helps you connect and share with the people in your life.</p>
+		  </div>
 	  </section>
-		<section class="right">
-			<div class="right">
-			<form>
-				<input type="text" id="email" placeholder="Email address or phone number">
-				<input type="password" id="password" placeholder="Password">
-				<button type="submit">Log In</button>
-				<a href="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">Forgotten account?</a>
-			</form>
-			<button class="signup">Create new account</button>
-			</div>
-		</section>
-		<!-- the entire body must be written by student -->
-    <script src="./script.js"></script>
-  </body>
+	  <section class="right">
+		  <div class=right>
+			  <form>
+				  <input type="text" id="email" placeholder="Email address or phone number">
+				  <input type="password" id="password" placeholder="Password">
+				  <button type="submit">Log in</button>
+				  <a href="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">Forgotten account?</a>
+			  </form>
+			  <button class="signup">Create new account</button>
+		  </div>
+	  </section>
+  </body>
 </html>
